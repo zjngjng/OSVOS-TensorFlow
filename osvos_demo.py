@@ -15,6 +15,7 @@ import tensorflow as tf
 slim = tf.contrib.slim
 import matplotlib.pyplot as plt
 # Import OSVOS files
+a = os.path.realpath(__file__)
 root_folder = os.path.dirname(os.path.realpath(__file__))
 sys.path.append(os.path.abspath(root_folder))
 import osvos
